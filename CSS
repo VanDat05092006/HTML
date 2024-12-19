@@ -1,0 +1,321 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#header{
+    background-color: black;
+    height: 46px;
+    position: fixed;
+    right:0;
+    left: 0;
+    top:0;
+}
+#nav{
+    display: inline-block;
+
+}
+#nav li{
+    position: relative;
+    list-style-type: none;
+    font-size: x-large;
+}
+#nav >li{
+    display: inline-block;
+}
+#nav #subnav{
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0  5px black;
+    display: none;
+}
+#nav #subnav a{
+    color: black;
+    padding: 0px 14px;
+}
+#nav li:hover #subnav{
+    display: block;
+}
+#nav>li>a{
+    color:#fff; 
+    text-transform: uppercase;
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+}
+#nav li:hover {
+    color: black;
+    background-color: #aaa8a8;
+    color: black;
+}
+.search {
+   float: right;
+   padding: 0 15px;
+
+}
+.search>i{
+    font-size: 30px;
+    line-height: 46px;
+    color: #fff;
+    margin: 0 40px;
+    text-align: center;
+
+
+}
+.search:hover{
+
+    background-color: rgb(204, 54, 54);
+
+
+
+}
+#slider{
+
+    height: 1000px;
+    margin-top: 46px;
+    background-image:  url('https://www.w3schools.com/w3images/la.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+    
+
+
+
+#slider p{
+    position: relative ;
+    text-align: center;
+    
+    box-sizing: border-box;
+    position: relative;
+    top: 900px;
+    font-size: xx-large;
+    color: #fff ;
+}
+
+
+
+.textcontent{
+
+}
+#content{
+    height:auto;
+    text-align: center;
+}
+ .textcontent,
+ .textcontentbox1,
+ .textcontentbox2,
+ .textcontentbox3{
+   width: 770px;
+   text-align: center;
+   margin: 86px  ;
+   margin-left: auto;
+   margin-right: auto;
+   height: fit-content;
+
+
+}
+.content-part2-box2>button:hover{
+    background-color: rgb(0, 255, 21);
+
+
+}
+
+
+
+.textcontent .subheading {
+    text-align: center;
+    padding: 30px 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+
+
+}
+
+.textcontent p{
+    text-align: justify;
+}
+.textcontent>h2{
+    letter-spacing: 4px;
+
+
+}
+#minibox{
+    margin-left: auto;
+    margin-right: auto;
+    width: 770px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+#minibox img{
+    height: 155px;
+
+
+}
+
+
+.textcontent.box2{
+    background-color:black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: #fff;
+    height: 700px;
+    
+
+
+}
+.minibox2 div{
+
+    height: 200px;
+    background-color: #fff;
+    color: black;
+}
+
+#part2-box2{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    width: 770px;
+    height: 500px;
+    
+}
+
+.minibox2 img{
+    height: 185px;
+    width: 245px;
+    padding: 0px 0px;
+   
+
+}
+.minibox2 div{
+    width: 245px ;
+
+
+}
+.minibox2{
+    padding: 5px 5px;
+    height: 300px;
+  
+
+}
+.content-part2-box2 p{
+
+    padding: 10px 10px;
+
+
+
+}
+
+.content-part2-box2 button{
+    padding: 10px 0px;
+    background-color: rgb(250, 4, 4);
+    width: 100px;
+    height: 40px;
+    color: #fff;
+
+
+}
+.textcontent.box2{
+    padding: 86px 0px;
+
+
+}
+
+
+#part2-box3{
+    margin-right: auto;
+    margin-left: auto;
+    width: 770px;
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+    zoom: 100%;
+
+
+}
+#part2-box3 #contact{
+    text-align: left;
+    font-size: larger;
+
+
+}
+#part2-box3 div{
+    
+
+
+}
+form{
+    height: 20px;
+
+
+}
+.input1{
+    height: 50px;
+    width: 200px;
+}
+.input2{
+    height: 50px;
+    width: 404px;
+    
+    
+
+
+}
+#formWeb{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#contact p{
+    padding: 10px 0;
+
+}
+.textcontent.box3{
+    height: fit-content;
+
+
+}
+#send{
+    width: 770px;
+    text-align: right;
+    height: 100px;
+    
+
+}
+#send button{
+    background-color: red;
+    height: 40px;
+    width: 100px;
+    color: #fff;
+
+
+}
+#send>button:hover{
+    background-color: rgb(0, 255, 13);
+
+
+}
+
+
+
+#footer{
+    font-size: xx-large;
+    width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 200px;
+}
+#footer>div{
+padding-top: 50px;
+
+}
