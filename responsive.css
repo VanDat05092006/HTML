@@ -1,0 +1,24 @@
+@media (min-width: 775px)  and (max-width: 1023 px){
+  .container {
+    width: 750px;
+  }
+}
+
+
+/* mobile */
+@media(max-width: 774px) {
+  #header .search{
+    display: none;
+
+
+
+  }
+  #nav li {
+    display: block;
+
+
+
+
+  }
+  
+}
